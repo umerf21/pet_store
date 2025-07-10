@@ -15,6 +15,10 @@ if linkage != nil
 end
 
 target 'petApp' do
+  pod 'DoubleConversion', :podspec => '../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec'
+  pod 'react-native-maps', :path => '../node_modules/react-native-maps', :modular_headers => true
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
   config = use_native_modules!
 
   use_react_native!(
