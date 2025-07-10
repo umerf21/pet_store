@@ -1,8 +1,6 @@
 // src/navigator/BottomTabs.tsx
 import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-
-import Icon from 'react-native-vector-icons/Ionicons';
 import HomeScreen from '../screens/HomeScreen/HomeScreen';
 import MapsScreen from '../screens/MapsScreen/MapsScreen';
 import { ROOT_PAGE_URL } from './navigation.types';

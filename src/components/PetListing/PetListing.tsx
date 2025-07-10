@@ -4,7 +4,7 @@ import { FlatList, View, StyleSheet } from 'react-native';
 import PetCard from '../PetCard/PetCard';
 import Banner from '../Banner/Banner';
 
-const PetListing = ({pets}) => {
+const PetListing = ({pets}:any) => {
   return (
     <View style={styles.container}>
       <FlatList

@@ -12,7 +12,7 @@ type PetDetailRouteProp = RouteProp<RootStackParamList, 'PetDetails'>;
 
 const PetDetailsScreen = () => {
   const route = useRoute<PetDetailRouteProp>();
-  const { pet } = route.params;
+  const { pet }:any = route.params;
   const [error, setError] = useState(false);
 
   const navigation = useNavigation<NativeStackNavigationProp<RootStackParamList>>();
